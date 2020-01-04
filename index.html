@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="App.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-103961782-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-103961782-2');
+    </script>
+
     <script defer src="main.js"></script>
     <title>Carb Cycling</title>
   </head>
@@ -19,7 +34,8 @@
       <br />
       <hr />
       <p class="info">
-        <strong>Step 1:</strong> Get Your TDEE(Calories Per Day) Number from this
+        <strong>Step 1:</strong> Get Your TDEE(Calories Per Day) Number from
+        this
         <a target="_blank" href="https://tdeecalculator.net/">website</a>
       </p>
       <p id="inp"><strong>Step 2:</strong> Enter that Number here</p>
