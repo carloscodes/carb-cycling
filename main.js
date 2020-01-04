@@ -26,6 +26,7 @@ function calculateLow(tdee, bw) {
   carbsCalories = lowCarb * 0.2;
   carbsGrams = carbsCalories / 4;
   //format
+  carbsCalories = carbsCalories.toPrecision(4);
   carbsGrams = carbsGrams.toPrecision(4);
 
   proteinGrams = bw;
@@ -34,6 +35,7 @@ function calculateLow(tdee, bw) {
   fatCalories = lowCarb - (carbsCalories + proteinCalories);
   fatGrams = fatCalories / 9;
   //format
+  fatCalories = fatCalories.toPrecision(4);
   fatGrams = fatGrams.toPrecision(4);
 }
 
@@ -43,6 +45,7 @@ function calculateHigh(tdee, bw) {
   carbsCaloriesHigh = highCarb * 0.5;
   carbsGramsHigh = carbsCaloriesHigh / 4;
   //format
+  carbsCaloriesHigh = carbsCaloriesHigh.toPrecision(4);
   carbsGramsHigh = carbsGramsHigh.toPrecision(4);
 
   proteinGramsHigh = bw;
@@ -51,6 +54,7 @@ function calculateHigh(tdee, bw) {
   fatCaloriesHigh = highCarb - (carbsCaloriesHigh + proteinCaloriesHigh);
   fatGramsHigh = fatCaloriesHigh / 9;
   //format
+  fatCaloriesHigh = fatCaloriesHigh.toPrecision(4);
   fatGramsHigh = fatGramsHigh.toPrecision(4);
 }
 
