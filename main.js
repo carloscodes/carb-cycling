@@ -54,8 +54,8 @@ function calculateHigh(tdee, bw) {
   fatCaloriesHigh = highCarb - (carbsCaloriesHigh + proteinCaloriesHigh);
   fatGramsHigh = fatCaloriesHigh / 9;
   //format
-  fatCaloriesHigh = fatCaloriesHigh.toPrecision(4);
-  fatGramsHigh = fatGramsHigh.toPrecision(4);
+  //fatCaloriesHigh = fatCaloriesHigh.toPrecision(4);
+  //fatGramsHigh = fatGramsHigh.toPrecision(4);
 }
 
 function getInfo() {
@@ -80,7 +80,7 @@ function getInfo() {
         <li>Fats: ${fatCalories} Calories / ${fatGrams} Grams</li>
     </ul>
     <br>
-    <p> <strong>High Carb Day at a 10% deficit will consist of:<strong> </p>
+    <p> <strong>High Carb Day at a 10% deficit will consist of:</strong> </p>
     <br>
 
     <ul>
