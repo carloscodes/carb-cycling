@@ -236,6 +236,28 @@ function resetAllValues(td, bdyw) {
 
     fatCaloriesHighM = 0;
     fatGramsHighM = 0;
+
+    // Surplus
+    lowCarbS = 0;
+    highCarbS = 0;
+
+    carbsCaloriesS = 0;
+    carbsGramsS = 0;
+
+    carbsCaloriesHighS = 0;
+    carbsGramsHighS = 0;
+
+    proteinCaloriesS = 0;
+    proteinGramsS = 0;
+
+    proteinCaloriesHighS = 0;
+    proteinGramsHighS = 0;
+
+    fatCaloriesS = 0;
+    fatGramsS = 0;
+
+    fatCaloriesHighS = 0;
+    fatGramsHighS = 0;
   }
 }
 
